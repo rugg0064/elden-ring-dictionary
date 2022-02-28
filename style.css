@@ -1,0 +1,30 @@
+@font-face {
+    font-family: eldenRingFont;
+    src: url(./Mantinia_Regular.otf);
+  }
+
+.centered {
+    text-align: center;
+}
+
+h1 {
+    font-family: eldenRingFont, arial;
+    font-size: 0.65in;
+    margin: 0 1em;
+}
+h2 {
+    margin: 0 1em;
+}
+
+body {
+    margin: 0 auto;
+    width: 95%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+td {
+    border-right: 1px solid black;
+}
